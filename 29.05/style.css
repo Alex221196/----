@@ -56,6 +56,13 @@
 .container{
     display: flex;
     justify-content: center;
+    position: relative;
+}
+h1{
+    position: absolute;
+    z-index: -1;
+    transform: translate(0, -100%);
+    top: 50%;
 }
 .left_door{
     width: 300px;
