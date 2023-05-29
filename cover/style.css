@@ -35,3 +35,17 @@ img:hover{
     transition: all 0.5s ease;
 
 }
+.rot{
+    height: 100px;
+    width:100px;
+    animation: load, linear normal infinite 1.5s;
+}
+@keyframes load{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
