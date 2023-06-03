@@ -1,0 +1,15 @@
+.block{
+    background-color:tomato;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.inner{
+    height: 200px;
+    background-color: aqua;
+    border: 3px solid black;
+    width: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
