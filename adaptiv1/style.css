@@ -1,0 +1,52 @@
+body{
+        background-color: green;
+        margin: 0 auto;
+        color: white;
+}
+.container{
+    max-width: 1300px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.img{
+    width: 82px;
+    height: 80px;
+}
+.blok{
+    display: flex;
+    gap: 20px;
+}
+.box_1{
+    display: flex;
+    gap: 20px;
+}
+.box_2{
+    display: flex;
+    gap: 20px;
+}
+.txt{
+    display: flex;
+    gap: 20px;
+}
+h1{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+span{
+    color: rgb(160, 160, 160);
+}
+@media (min-width:280px) and (max-width:600px) {
+    .blok{
+        flex-direction: column;
+    }
+    .img{
+        display: flex;
+        align-items: center;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
