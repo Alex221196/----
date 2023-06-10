@@ -1,52 +1,64 @@
-body{
-        background-color: green;
-        margin: 0 auto;
-        color: white;
+body {
+    background-color: green;
+    margin: 0 auto;
+    color: white;
 }
-.container{
+
+.container {
     max-width: 1300px;
     margin-left: 50px;
     margin-top: 100px;
 }
-.img{
+
+.img {
     width: 82px;
     height: 80px;
 }
-.blok{
+
+.blok {
     display: flex;
     gap: 20px;
 }
-.box_1{
+
+.box_1 {
     display: flex;
     gap: 20px;
 }
-.box_2{
+
+.box_2 {
     display: flex;
     gap: 20px;
 }
-.txt{
+
+.txt {
     display: flex;
     gap: 20px;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-a{
+
+a {
     text-decoration: none;
     color: rgb(160, 160, 160);
 }
-span{
+
+span {
     color: rgb(160, 160, 160);
 }
+
 @media (min-width:280px) and (max-width:600px) {
-    .blok{
+    .blok {
         flex-direction: column;
     }
-    .img{
+
+    .img {
         display: flex;
         align-items: center;
     }
-    h1{
+
+    h1 {
         font-size: 30px;
     }
 }
